@@ -1,0 +1,78 @@
+/* Resetleme */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+  }
+  
+  /* Temel stiller */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  .product {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .product-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .product-description {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .product-info p {
+    margin-bottom: 8px;
+  }
+  
+  .product-images img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  /* Özel stillendirmeler */
+  .product-price {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .product-discount {
+    color: #E74C3C;
+  }
+  
+  .product-rating {
+    color: #F1C40F;
+  }
+  
+  .product-stock {
+    color: #27AE60;
+  }
+  
+  .product-brand, .product-category {
+    font-style: italic;
+    color: #888;
+  }
+  
+
+  
+  .productsBtn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 35%;
+    
+  }
